@@ -1,0 +1,13 @@
+{
+  "name": "mod-template",
+  "version": "0.1.0",
+  "description": "Put your mod-template description.",
+  "author": {
+    "name": "Sung Lee"
+  },
+  "keywords": [
+    "optional",
+    "keywords",
+    "you-can-add"
+  ]
+}
