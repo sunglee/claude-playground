@@ -1,0 +1,6 @@
+{
+  "name": "claude-playground",
+  "owner": { "name": "Sung Lee" },
+  "description": "Claude Code mods by Sung Lee.",
+  "plugins": [{ "name": "token-weather", "source": "./mods/token-weather" }]
+}

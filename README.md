@@ -28,6 +28,18 @@ The band also shows token counts (`used / window`) and, when the terminal is at 
 - Keeps the last 12 readings in host-held plugin state, so history survives a hot reload.
 - Renders through the `ui.render` hook on the `AbovePrompt` component, and steps aside while a survey is showing.
 
+## Install
+
+This repo is a Claude Code plugin marketplace. In a terminal session:
+
+```
+/plugin install token-weather --marketplace sunglee/claude-playground
+```
+
+Answer `y` to add the marketplace, then choose a scope (**user** loads it in every session). The mod is active as soon as the install finishes.
+
+To update after new commits: `claude plugin update token-weather`, then `/reload-plugins`.
+
 ## Layout
 
 ```
@@ -38,7 +50,3 @@ mods/token-weather/
 ├── tests/token-weather.test.ts  # test using claude-code/testing
 └── types/index.d.ts             # types for the mod API
 ```
-
-## Author
-
-Sung Lee
