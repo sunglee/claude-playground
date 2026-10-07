@@ -1,3 +1,5 @@
 {
-  "modules": ["./token-weather.mjs"]
+  "modules": [
+    "./token-weather.mjs"
+  ]
 }
